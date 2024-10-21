@@ -1,0 +1,2 @@
+/Users/jordan/Code/Supermarket Check Out/build/_CPack_Packages/Darwin/DragNDrop/SupermarketCheckoutSystem-1.0.0-Darwin/bin/SupermarketCheckoutSystem
+/Users/jordan/Code/Supermarket Check Out/build/_CPack_Packages/Darwin/DragNDrop/SupermarketCheckoutSystem-1.0.0-Darwin/data/data.json
