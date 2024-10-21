@@ -83,7 +83,7 @@ Catch2 provides a simple and powerful framework for writing unit tests, ensuring
     git clone https://github.com/jrwecler/Supermarket-Check-Out.git
     cd SupermarketCheckoutSystem
     ```
-  _Or extract the provided .zip file_
+    _Or extract the provided .zip file_
 
 2. **Create a Build Directory**:
     ```bash
