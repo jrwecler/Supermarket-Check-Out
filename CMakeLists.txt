@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(SupermarketCheckoutSystem)
+project(SupermarketCheckout)
 
 # Set the C++ standard
 set(CMAKE_CXX_STANDARD 17)
@@ -18,7 +18,7 @@ set(SOURCES
 )
 
 # Add executable
-add_executable(SupermarketCheckoutSystem ${SOURCES})
+add_executable(SupermarketCheckout ${SOURCES})
 
 # Include nlohmann JSON library
 # Option 1: FetchContent (CMake 3.11+ required)
@@ -30,7 +30,7 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(nlohmann_json)
 
-target_link_libraries(SupermarketCheckoutSystem PRIVATE nlohmann_json::nlohmann_json)
+target_link_libraries(SupermarketCheckout PRIVATE nlohmann_json::nlohmann_json)
 
 # Option 2: If FetchContent is not available, you can include the single-header version
 # and add include_directories accordingly.
@@ -48,7 +48,7 @@ set(CPACK_PACKAGE_CONTACT "jwecler@gmail.com") # Replace with your contact info
 set(CPACK_GENERATOR "ZIP;TGZ;DragNDrop;NSIS") # Specify the generators you need
 
 # Define installation rules
-install(TARGETS SupermarketCheckoutSystem DESTINATION bin)
+install(TARGETS SupermarketCheckout DESTINATION bin)
 install(DIRECTORY data/ DESTINATION data) # Install data at the root level alongside bin
 
 
