@@ -132,12 +132,12 @@ After building, the executable can be found in the `bin` directory of the packag
 
     - **On macOS/Linux**:
         ```bash
-        ./SupermarketCheckoutSystem
+        ./SupermarketCheckout
         ```
 
     - **On Windows**:
         ```bash
-        SupermarketCheckoutSystem.exe
+        SupermarketCheckout.exe
         ```
 
 **Important**:
@@ -145,7 +145,7 @@ Ensure that the `data` directory is located at the same hierarchical level as th
 
 The directory structure should look like this:
 ```plaintext
-SupermarketCheckoutSystem/
+SupermarketCheckout/
 ├── bin/
 │   └── SupermarketCheckoutSystem
 └── data/
