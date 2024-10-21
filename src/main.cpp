@@ -6,7 +6,7 @@
 int main() {
     try {
         Checkout checkout;
-        checkout.loadItemsAndDeals(std::string("../data/data.json"));
+        checkout.loadItemsAndDeals(std::string("data/data.json"));
 
         std::cout << "Welcome to the Supermarket Checkout System!\n";
         std::cout << "Type 'help' to see available commands and items.\n";
