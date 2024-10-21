@@ -324,6 +324,6 @@ While the Supermarket Checkout System currently fulfills its core functionalitie
 ## Contact
 For any inquiries or support, please contact:
 
-- **Email**: your.email@example.com
-- **GitHub**: yourusername
+- **Email**: jwecler@gmail.com
+- **GitHub**: jrwecler
 
