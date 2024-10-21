@@ -32,9 +32,6 @@ FetchContent_MakeAvailable(nlohmann_json)
 
 target_link_libraries(SupermarketCheckout PRIVATE nlohmann_json::nlohmann_json)
 
-# Option 2: If FetchContent is not available, you can include the single-header version
-# and add include_directories accordingly.
-
 # Add tests subdirectory
 enable_testing()
 add_subdirectory(tests)
