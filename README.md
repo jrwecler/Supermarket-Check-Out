@@ -80,8 +80,8 @@ Catch2 provides a simple and powerful framework for writing unit tests, ensuring
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/jrwecler/Supermarket-Check-Out.git
-    cd SupermarketCheckoutSystem
+    git clone https://github.com/jrwecler/SupermarketCheckout.git
+    cd SupermarketCheckout
     ```
     _Or extract the provided .zip file_
 
@@ -147,7 +147,7 @@ The directory structure should look like this:
 ```plaintext
 SupermarketCheckout/
 ├── bin/
-│   └── SupermarketCheckoutSystem
+│   └── SupermarketCheckout
 └── data/
     └── data.json
 ```
